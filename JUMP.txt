@@ -94,7 +94,7 @@ func _integrate_forces(playerstate):
 		var up = playerstate.get_total_gravity().normalized();
 		var normal = ray.get_collision_normal();
 		var velfl = Vector3();
-		#лучь-столкновение
+		#луч-столкновение
 		var object = ray.get_collider()
 		
 		var speed = speedwalk;
